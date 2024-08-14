@@ -14,7 +14,7 @@ To get started with this project, follow the steps below:
 
 Once the application is up and running, you can access the following APIs:
 
-- API 1: [Get All Users](http://localhost:3000/api/users) - Retrieves a list of all users.
+- API 1: http://localhost:3000/api/users - Retrieves a list of all users.
   - Method: GET
   - Response:
      ```json
@@ -29,7 +29,7 @@ Once the application is up and running, you can access the following APIs:
      ]
      ```
 
-- API 2: [Get User by ID](http://localhost:3000/api/users/:id) - Retrieves a single user by their ID.
+- API 2: http://localhost:3000/api/users/:id - Retrieves a single user by their ID.
   - Method: GET
   - Response:
      ```json
@@ -41,7 +41,7 @@ Once the application is up and running, you can access the following APIs:
      }
      ```
 
-- API 3: [Create a New User](http://localhost:3000/api/users) - Creates a new user.
+- API 3: http://localhost:3000/api/users - Creates a new user.
   - Method: POST
   - Request Body:
      ```json
@@ -61,7 +61,7 @@ Once the application is up and running, you can access the following APIs:
      }
      ```
 
-- API 4: [Update a User](http://localhost:3000/api/users/:id) - Updates an existing user's information.
+- API 4: http://localhost:3000/api/users/:id - Updates an existing user's information.
   - Method: PATCH
   - Request Body:
      ```json
@@ -77,11 +77,11 @@ Once the application is up and running, you can access the following APIs:
         "id": 2,
         "name": "Jane Smith",
         "email": "jane.smith@example.com",
-        "dateOfBirth": "1992-05-15T00:00:00.000Z"
+        "dateOfBirth": "1992-05-15"
      }
      ```
 
-- API 5: [Delete a User](http://localhost:3000/api/users/:id) - Deletes a user by their ID.
+- API 5: http://localhost:3000/api/users/:id - Deletes a user by their ID.
   - Method: DELETE
   - Response:
      ```json
